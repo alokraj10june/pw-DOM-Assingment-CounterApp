@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:8px;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    border-radius: 18px;;
+}
+#number{
+    padding: 5px 15px;
+    border:1px solid black;
+
+}
+button{
+    padding:5px 15px;
+}
